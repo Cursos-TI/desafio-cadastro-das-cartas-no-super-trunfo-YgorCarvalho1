@@ -24,19 +24,19 @@ int main() {
     printf("Digite o número da cidade (1-4):\n");
     scanf("%d", &cidade);
     printf("Digite a população da cidade:\n");
-    scanf("%d", %populacao);
+    scanf("%d", &populacao);
     printf("Digite a área da cidade (em km²):\n");
-    scanf("%f", %area);
+    scanf("%f", &area);
     printf("Digite a PIB da cidade:\n");
-    scanf("%f", %pib);
+    scanf("%f", &pib);
     printf("Digite os pontos turísticos da cidade:\n");
-    scanf("%d", %pontos);
-    )
+    scanf("%d", &pontos);
+    
 
     // INFORMAÇÃO COMPLETA DA CARTA ESCOLHIDA
 
-    printf("Estado: %c, Número/Cidade: %d, População: %d\n" estado, cidade, populacao);
-    printf("Área: %2.f, PIB: %2f, Pontos Turísticos: %d\n" area, pib, pontos);
+    printf("Estado: %c, Número/Cidade: %d, População: %d\n", estado, cidade, populacao);
+    printf("Área: %.2f, PIB: %.2f, Pontos Turísticos: %d\n", area, pib, pontos);
 
     return 0;
 }
