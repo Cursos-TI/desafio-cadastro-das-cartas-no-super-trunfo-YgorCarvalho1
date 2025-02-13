@@ -14,8 +14,8 @@ int main() {
 
     // BOAS VINDAS AO JOGADOR
     
-    printf("SUPER TRUNFO DOS PAÍSES");
-    printf("-----------------------");
+    printf("SUPER TRUNFO DOS PAÍSES\n");
+    printf("-----------------------\n");
 
     // CADASTRO DAS CARTAS
 
