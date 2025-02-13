@@ -4,7 +4,7 @@ int main() {
     printf("Desafio Xadrez!\n");
     printf("Novo commit\n");
 
-    //INFORMAÇOES DAS CARTAS DO TRUNFO
+    // INFORMAÇOES DAS CARTAS DO TRUNFO
     char estado;               //LETRAS DO ESTADO (A, B, C...)
     int cidade;                //NÚMERO DA CIDADE (1 A 4)
     int populacao;             //POPULAÇÃO DA CIDADE
@@ -12,31 +12,31 @@ int main() {
     float pib;                 //PIB DA CIDADE
     int pontos;                //NÚMERO DE PONTOS TURÍSTICOS
 
-    //BOAS VINDAS AO JOGADOR
+    // BOAS VINDAS AO JOGADOR
     
     printf("SUPER TRUNFO DOS PAÍSES");
     printf("-----------------------");
 
-    //CADASTRO DAS CARTAS
+    // CADASTRO DAS CARTAS
 
     printf("Digite a letra do estado (A-H):\n");
-    scanf( %c, &estado);
+    scanf(" %c", &estado);
     printf("Digite o número da cidade (1-4):\n");
-    scanf(%d, &cidade);
+    scanf("%d", &cidade);
     printf("Digite a população da cidade:\n");
-    scanf(%d, %populacao);
+    scanf("%d", %populacao);
     printf("Digite a área da cidade (em km²):\n");
-    scanf(%f, %area);
+    scanf("%f", %area);
     printf("Digite a PIB da cidade:\n");
-    scanf(%f, %pib);
+    scanf("%f", %pib);
     printf("Digite os pontos turísticos da cidade:\n");
-    scanf(%d, %pontos);
+    scanf("%d", %pontos);
     )
 
-    //INFORMAÇÃO COMPLETA DA CARTA ESCOLHIDA
+    // INFORMAÇÃO COMPLETA DA CARTA ESCOLHIDA
 
     printf("Estado: %c, Número/Cidade: %d, População: %d\n" estado, cidade, populacao);
-    printf("Área: %2.f, PIB: %2.f, Pontos Turísticos: %d\n" area, pib, pontos);
+    printf("Área: %2.f, PIB: %2f, Pontos Turísticos: %d\n" area, pib, pontos);
 
     return 0;
 }
