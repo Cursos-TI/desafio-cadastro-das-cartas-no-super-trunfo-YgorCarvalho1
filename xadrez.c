@@ -19,19 +19,24 @@ int main() {
 
     //CADASTRO DAS CARTAS
 
-    printf("Digite a letra do estado (A-H):");
+    printf("Digite a letra do estado (A-H):\n");
     scanf( %c, &estado);
-    printf("Digite o número da cidade (1-4):");
+    printf("Digite o número da cidade (1-4):\n");
     scanf(%d, &cidade);
-    printf("Digite a população da cidade:");
+    printf("Digite a população da cidade:\n");
     scanf(%d, %populacao);
-    printf("Digite a área da cidade (em km²):");
+    printf("Digite a área da cidade (em km²):\n");
     scanf(%f, %area);
-    printf("Digite a PIB da cidade:");
+    printf("Digite a PIB da cidade:\n");
     scanf(%f, %pib);
-    printf("Digite os pontos turísticos da cidade:");
+    printf("Digite os pontos turísticos da cidade:\n");
     scanf(%d, %pontos);
     )
 
+    //INFORMAÇÃO COMPLETA DA CARTA ESCOLHIDA
 
+    printf("Estado: %c, Número/Cidade: %d, População: %d\n" estado, cidade, populacao);
+    printf("Área: %2.f, PIB: %2.f, Pontos Turísticos: %d\n" area, pib, pontos);
+
+    return 0;
 }
